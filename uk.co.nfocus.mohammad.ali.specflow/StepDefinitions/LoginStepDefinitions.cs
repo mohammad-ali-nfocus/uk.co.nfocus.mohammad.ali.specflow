@@ -43,7 +43,7 @@ namespace uk.co.nfocus.mohammad.ali.specflow.StepDefinitions
         [Then(@"I should be logged in")]
         public void ThenIShouldBeRedirectedToTheHomepage()
         {
-
+            // page automatically loads to logged in page
         }
 
         

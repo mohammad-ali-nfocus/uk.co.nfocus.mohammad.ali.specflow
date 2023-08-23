@@ -11,13 +11,7 @@ namespace uk.co.nfocus.mohammad.ali.specflow.StepDefinitions
 	{
 		
 		public static IWebDriver _driver;
-		// private readonly ScenarioContext _ScenariaoContext;
-
-		// public Hooks(ScenarioContext scenarioContext)
-		//public Hooks
-		//{
-		//	_ScenariaoContext = scenarioContext;
-		// }
+		
 		[Before]
 		public void SetUp()
 		{
