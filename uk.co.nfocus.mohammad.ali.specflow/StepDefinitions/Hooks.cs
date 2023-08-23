@@ -18,8 +18,7 @@ namespace uk.co.nfocus.mohammad.ali.specflow.StepDefinitions
 			_driver = new ChromeDriver();
 			_driver.Manage().Window.Maximize();
             _driver.Url = "https://www.edgewordstraining.co.uk/demo-site/my-account/";
-			//  _driver.FindElement(By.CssSelector("body > p > a")).Click();
-			//_ScenariaoContext["driver"] = _driver;
+		
 
 		}
 
